@@ -35,7 +35,9 @@ function App() {
     <React.Fragment>
       <div className="app">
         <div className="app__userArea">
-          <h2 className="app__header">Math Art Intgration Project</h2>
+          <h2 className="app__header">
+            Math Art Intgration Project Polynomial Graph Generator
+          </h2>
           <hr />
           <br />
           <form onSubmit={formSubmit}>
