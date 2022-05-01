@@ -10,13 +10,6 @@ function App() {
   const [error, setError] = useState("");
   const [zeros, setZeros] = useState([]);
 
-  const checkDisabled = () => {
-    if (text == "") {
-      return true;
-    }
-    return false;
-  };
-
   const formSubmit = (e) => {
     e.preventDefault();
     try {
@@ -101,7 +94,9 @@ function App() {
                 x*(2-5)
               </li>
               <li>Leave a space, before and after +/- sign</li>
-              <li>shows graphs for only 100 cases :- x = -50 to 50</li>
+              <li>
+                shows graphs and zeros for only 100 cases :- x = -50 to 50
+              </li>
               <li>Uses only decimal values for x</li>
             </ul>
           </div>
